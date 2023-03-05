@@ -8,10 +8,10 @@ const PORT1 = process.env.PORT || 8080;
 const PORT2 = process.env.PORT || 3000;
 const __dirname = path.resolve();
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'react')));
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'react', 'index.html'));
 });
 
 cors_proxy.createServer({

@@ -2,7 +2,7 @@
   "name": "cors_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "react/index.js",
   "scripts": {
     "start": "node index.js",
     "build": "node index.js"
